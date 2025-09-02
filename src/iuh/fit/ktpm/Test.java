@@ -34,7 +34,7 @@ public class Test {
 				System.out.println("5. Tìm khóa học theo ten\n");
 				System.out.println("6. Tìm khóa học theo khoa\n");
 				System.out.println("7. Sắp xếp khóa học theo ten\n");
-				System.out.println("8. Tìm 5 khóa học có số tín chỉ lớn nhất\n");
+				System.out.println("8. Tìm 3 khóa học có số tín chỉ lớn nhất\n");
 				System.out.println("9. Tìm khoa có nhiều khóa học nhất\n");
 				System.out.println("0. Thoát\n");
 
