@@ -1,12 +1,5 @@
 package iuh.fit.ktpm;
 
-/**
- * Day la class quan li danh sach khoa hoc
- * 
- * @author Le Hoang Tan
- * @version 1.0
- * @since 2-Sep-2025 6:19:10 PM
- */
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -14,6 +7,13 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Day la class quan li danh sach khoa hoc
+ * 
+ * @author Le Hoang Tan
+ * @version 1.0
+ * @since 2-Sep-2025 6:19:10 PM
+ */
 public class CourseList {
 	private int count;
 	private Course[] courses;

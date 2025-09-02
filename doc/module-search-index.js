@@ -1,1 +1,1 @@
-moduleSearchIndex = [{"l":"SecondPrj"}];updateSearchResults();
+moduleSearchIndex = [{"l":"CoursePrj"}];updateSearchResults();
