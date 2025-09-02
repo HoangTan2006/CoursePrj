@@ -90,11 +90,10 @@ public class Test {
 						System.out.print("Nhap id khoa hoc: ");
 						String id = scanner.nextLine();
 						
-						try {
-							courseList.removeCourse(id);
-							System.out.println("Xoa thanh cong");
-						} catch (RuntimeException re) {
-							System.out.print("Xoa khong thanh cong");
+						if (courseList.removeCourse(id)) {
+							System.out.println("Xoa thanh cong");							
+						} else {
+							System.err.print("Xoa khong thanh cong, id khong ton tai");							
 						}
 						
 						System.out.println("Nhap enter de tiep tuc");
