@@ -93,7 +93,7 @@ public class Test {
 						if (courseList.removeCourse(id)) {
 							System.out.println("Xoa thanh cong");							
 						} else {
-							System.err.print("Xoa khong thanh cong, id khong ton tai");							
+							System.err.print("Xoa khong thanh cong, id khong ton tai\n");
 						}
 						
 						System.out.println("Nhap enter de tiep tuc");
